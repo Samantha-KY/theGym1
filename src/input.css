@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .body{
+        @apply bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500;
+    }
+    .body__style{
+        @apply flex flex-col;
+    }
+    .body__nav{
+        @apply flex flex-row items-center py-8 absolute space-y-3 m-8 p-8 justify-items-center;
+    }
+    .body__part1{
+        @apply grid md:grid-cols-2 mt-60 justify-items-center ;
+    }
+    .body__image1{
+        @apply grid justify-items-center ml-10 md:justify-items-center" width="1140" height="201";
+    }
+    .body__footer{
+        @apply grid justify-items-center;
+    }
+    .body__part2{
+        @apply
+    }
+}
