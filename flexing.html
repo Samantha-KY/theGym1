@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    /* with wrap you don't need shrink */
+    .nav-list li{
+        /* flex-shrink: 1;
+        flex-grow: 0; */
+    }
+    header{
+        --border-width: 10px;
+    }
+</style>
+<body>
+    <h1>FlexBox made simple</h1>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li>Home</li>
+                <li>About us</li>
+                <li>Service information goes here</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
