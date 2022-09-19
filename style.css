@@ -47,7 +47,8 @@ body{
 }
 .body__intro{
     display: grid; 
-    grid-template-columns: auto auto; 
+    grid-template-columns: auto auto;
+    grid: 50%; 
     gap: 3rem; 
 }
 .body__sum{
@@ -97,6 +98,9 @@ body{
 }
 .body__team{
  margin-left: 5rem;
+}
+.body__card--respond{
+    width: 25%;
 }
 .body__card{
     display: flex;
