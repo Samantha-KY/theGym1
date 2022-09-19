@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #FFF5F0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navigate__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.nav {
+    display: flex;
+    width: 80%;
+}
+
+.nav__logo {
+    flex-grow: 0.5;
+}
+
+.nav__items {
+    flex-grow: 2;
+}
+
+.nav__ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.login {
+    color: #1BA0AB;
+}
+
+.button {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #1BA0AB;
+    border-radius: 5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.join {
+    background-color: #1BA0AB;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.hero-section {
+    width: 90%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 3rem;
+}
+
+.intro__text {
+    width: 77px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #1BA0AB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.intro__title {
+    width: 542px;
+    height: 160px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.intro__text2 {
+    width: 338px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.intro__buttons {
+    display: flex;
+    gap: 2rem;
+}
+
+.about {
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about__intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid: 50%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about__summary {
+    margin-top: 5rem;
+    text-align: justify;
+}
+
+.about__summary__title {
+    font-weight: bold;
+    margin-right: 3rem;
+}
+
+.about__summary__text {
+    width: 351px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.about__summary__footer {
+    color: green;
+}
+
+.team__header {
+    color: green;
+}
+
+.team__sub-header {
+    font-weight: bold;
+}
+
+.team--text-n {
+    width: 351px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.team {
+    margin-left: 5rem;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+
+}
+
+.team__card--respond {
+    padding-left: 15px;
+}
+
+.team__card {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+    margin-left: 5rem;
+    gap: 30px;
+    width: 500px;
+    height: 375px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.team__card__item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.team__card__text {
+    text-align: center;
+}
+
+.team__card__paragraph {
+    text-align: center;
+}
+
+.team__card__footer {
+    text-align: center;
+}
+
+.team__card__item__img--align {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    width: 100%;
+    padding: 50px 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__subscribe {
+    position: relative;
+    display: flex;
+}
+
+.footer__subscribe__input {
+    padding: 10px 100px;
+}
+
+.footer__subscribe__button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background-color: #1BA0AB;
+    color: white;
+}
